@@ -44,7 +44,7 @@ CREATE TABLE "titles" (
 
 CREATE TABLE "salaries" (
     "emp_no" int   NOT NULL,
-    "salary" money   NOT NULL
+    "salary" money  NOT NULL
 );
 
 ALTER TABLE "employees" ADD CONSTRAINT "fk_employees_emp_title_id" FOREIGN KEY("emp_title_id")
